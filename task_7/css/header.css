@@ -259,7 +259,7 @@ color: white;
 	display: none;
 	width: 200px;
 	background-color: rgb(227,227,227);
-	position: relative;;
+	position: absolute;
 	float: left;
 }
 
