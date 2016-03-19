@@ -18,7 +18,7 @@ img{
     border: 1px solid #999;
     background-color: #FFF;
 }
-/*左右两栏用float并且inline*/
+/*左右两栏用float*/
 /*左栏*/
 .team{
     float: left;
@@ -30,9 +30,6 @@ img{
 .member{
     float: right;
     width: 80px;
-}
-.team, .member{
-    display: inline;
 }
 /*中间的用margin隔开*/
 .disc{
