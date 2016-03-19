@@ -11,7 +11,7 @@ img{
     margin: 20px;
     padding: 20px;
     background-color: #eee;
-    border-color: #999;
+    border: 1px solid #999;
 }
 .main div{
     padding: 20px;
