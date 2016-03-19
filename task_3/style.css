@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #999;
+}
+.main{
+    margin: 20px;
+    padding: 20px;
+    background-color: #eee;
+    border-color: #999;
+}
+.main div{
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #FFF;
+}
+/*左右两栏用float并且inline*/
+/*左栏*/
+.team{
+    float: left;
+    width: 160px;
+    height: 80px;
+    position: relative;
+}
+/*右栏*/
+.member{
+    float: right;
+    width: 80px;
+}
+.team, .member{
+    display: inline;
+}
+/*中间的用margin隔开*/
+.disc{
+    margin-left: 220px;
+    margin-right: 140px;
+}
+/*在.team里加了relative，设置文字位置*/
+span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: small;
+}
+/*将图片变成块元素，多出外边距来*/
+.member img{
+    display: block;
+}
+/*去掉p多出来的外边距*/
+.team p, .member p{
+    margin: 0;
+}
+/*clearfix*/
+.main:after{
+    content: "";
+    display: block;
+    clear: both;
+}
