@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task9</title>
+	<link rel="stylesheet" type="text/css" href="../style/index.css">
+</head>
+<body>
+
+    <!-- HTML OF HEADER -->
+	<header>
+		<a href="#" class="logo"><img src="../image/logo.png"></a>
+		<div class="search">
+			<img src="../image/icon_search.png">
+			<input type="text">
+		</div>
+		<div class="login">
+			<img src="../image/icon_login.png">
+			<input class="loginsubmit" type="button" value="登录">
+		</div>
+	</header>
+
+	<!-- HTML OF CONTENT -->
+	<div class="container">
+
+		<!-- 左侧列表 -->
+		<div class="container_left">
+			<div class="w_person_info">
+				<div class="person_info">
+					<div class="headpic">
+						<div class="headpic_inner"></div>
+					</div>
+					<div class="namebox"><a class="name S_txt1" href="">ABC123</a></div>
+				</div>
+				<ul class="user_atten">
+					<li class="S_line1">
+						<a href="">
+							<strong>110</strong>
+							<span class="S_txt2">收藏</span>
+						</a>
+					</li>
+					<li class="S_line1">
+						<a href="">
+							<strong>313</strong>
+							<span class="S_txt2">粉丝</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="left_nav">
+				<div class="item_fore">
+					<div class="item_fore_file">
+						<img src="../image/icon_form.png">
+						<h3>个人报表</h3>
+					</div>
+					<div class="item_fore_file">
+						<img src="../image/icon_right.png">
+						<img src="../image/icon_file.png">
+						<h4>文件一</h4>
+					</div>
+					<div class="item_fore_file">
+						<img src="../image/icon_down.png">
+						<img src="../image/icon_filepick.png">
+						<h4>文件二</h4>
+					</div>
+
+						<div class="item_fore_file">
+							<img src="../image/icon_docpick.png">
+							<h4>文档1</h4>
+						</div>
+						<div class="item_fore_file">
+							<img src="../image/icon_doc.png">
+							<h4>文档2</h4>
+						</div>
+					<div class="item_fore_file">
+						<img src="../image/icon_right.png">
+						<h4>文件三</h4>
+					</div>
+				</div>
+				<div class="item_fore">
+					<img src="../image/icon_star.png">
+					<h3>个人收藏</h3>
+				</div>
+				<div class="item_fore">
+					<img src="../image/icon_share.png">
+					<h3>我的分享</h3>
+				</div>
+				<div class="item_fore">
+					<img src="../image/icon_star.png">
+					<h3>图库</h3>
+				</div>
+				<div class="item_fore">
+					<img src="../image/icon_star.png">
+					<h3>成长记录</h3>
+				</div>
+				<div class="item_fore">
+					<img src="../image/icon_star.png">
+					<h3>账户信息</h3>
+				</div>
+			</div>
+		</div>
+
+		<!-- 右侧内容 -->
+		<div class="container_right">
+
+			<nav>
+				<ul>
+					<li><a href="">C站</a><img src="../image/icon_div.png"></li>
+					<li><a href="">个人报表</a><img src="../image/icon_div.png"></li>
+					<li><a href="">文件一</a><img src="../image/icon_div.png"></li>
+					<li><a href="">文档一</a></li>
+				</ul>
+			</nav>
+
+			<section class="query">
+				<div class="queryitem">
+					<label>查询项</label>
+					<select id="short">
+						<option value="第一项">第一项</option>
+					</select>
+				</div>
+				<div class="queryitem">
+					<article>
+						<label>买方</label>
+						<select id="long">
+							<option value="小A">小A</option>
+						</select>
+					</article>
+					<article>
+						<label>卖方</label>
+						<select id="long">
+							<option value="小C">小C</option>
+						</select>
+					</article>
+					
+				</div>
+				<div class="changeimg"><img src="../image/icon_change.png"></div>
+				<div class="queryitem">
+					<div class="queryitem_long">
+						<label>日期</label>
+						<input id="long" type="date" value="2016-04-01"/>
+						<label>总耗时</label>
+						<select id="short">
+							<option value="8天">8天</option>
+						</select>
+					</div>
+					<div class="queryitem_long">
+						<label>人数</label>
+						<select id="short">
+							<option value="10&nbsp人">10&nbsp人</option>
+						</select>
+						<label>成交项</label>
+						<select id="long">
+							<option value="10&nbsp项">10&nbsp项</option>
+						</select>
+					</div>
+				</div>
+				
+					<input class="queryitem_submit" type="submit" value="搜索">
+			
+			</section>
+
+			<section class="timetable">
+				<div class="tab tab_left"><img src="../image/icon_lefttab.png"></div>
+				<div class="tab tab_time">
+					<span>10:00 am</span>
+					<span><img src="../image/icon_rmb.png">1200</span>
+				</div>
+				<div class="tab tab_time">
+					<span>11:00 am</span>
+					<span><img src="../image/icon_rmb.png">1300</span>
+				</div>
+				<div class="tab tab_time">
+					<span>12:00 am</span>
+					<span><img src="../image/icon_rmb.png">1200</span>
+				</div>
+				<div class="tab tab_time">
+					<span>01:00 pm</span>
+					<span><img src="../image/icon_rmb.png">1400</span>
+				</div>
+				<div class="tab tab_time">
+					<span>02:00 pm</span>
+					<span><img src="../image/icon_rmb.png">1500</span>
+				</div>
+				<div class="tab tab_time">
+					<span>03:00 am</span>
+					<span><img src="../image/icon_rmb.png">1800</span>
+				</div>
+				<div class="tab tab_right"><img src="../image/icon_righttab.png"></div>
+				<div class="history">
+					<img src="../image/icon_cal.png">
+					<label>历史查询</label>
+				</div>
+			</section>
+
+			<section class="statistics">
+				<p>2016年4月份统计</p>
+				<article>
+					<div class="part bodercolor1">
+						<div class="partspan">
+							<span>133311</span>
+							<span>成交量</span>
+						</div>
+						<div class="partbox color1"></div>
+					</div>
+				</article>
+				<article>
+					<div class="part bodercolor2">
+						<div class="partspan">
+							<span>133311</span>
+							<span>成交量</span>
+						</div>
+						<div class="partbox color2"></div>
+					</div>
+				</article>
+				<article>
+					<div class="part bodercolor3">
+						<div class="partspan">
+							<span>133311</span>
+							<span>成交量</span>
+						</div>
+						<div class="partbox color3"></div>
+					</div>
+				</article>
+				<article>
+					<div class="part bodercolor4">
+						<div class="partspan">
+							<span>133311</span>
+							<span>成交量</span>
+						</div>
+						<div class="partbox color4"></div>
+					</div>
+				</article>
+			</section>
+
+			<section class="project">
+				<div class="project_left">
+					<div class="head">
+						<p>第一组项目</p>
+					</div>
+					<div class="project_left_table">
+						<ul>
+							<li>项目一</li>
+							<li>项目一</li>
+							<li>项目一</li>
+							<li>项目一</li>
+							<li>项目一</li>
+						</ul>
+						<div class="table_content">
+							<table>
+							<tbody>
+								<tr>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+								</tr>
+								<tr>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+								</tr>
+								<tr>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+								</tr>
+								<tr>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+								</tr>
+								<tr>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+								</tr>
+								<tr>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+									<td>购买材料一</td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+					</div>
+				</div>
+				<div class="project_right">
+					<div class="head"><p>第一组项目</p></div>
+					<div class="project_right_table">
+						<div class="project_right_table_head">
+							<label>标题</label>
+							<span>项目报表三</span>
+						</div>
+						<div class="project_right_table_pp">
+							<div class="price">
+								<label>价格</label>
+								<span>158</span>
+							</div>
+							<div class="person">
+								<label>负责人</label>
+								<span>小A</span>
+							</div>
+						</div>
+						<div class="describe">
+							<label>详细描述</label>
+							<span>该项目目前负责人是...</span>
+						</div>
+						<div class="foot">
+							<input type="checkbox"/><label>遵守保密协议</label>
+							<input class="foot_search" type="submit" value="搜索">
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<section class="calendar_rank">
+				<div class="calendar">
+					<div class="head"><p>日历</p></div>
+					<div class="calendarbox">
+					<div class="selectbox">
+						<div class="year">
+							<div class="num">2016年</div>
+							<div class="selectpic"><img src="../image/icon_calsel.png"></div>
+						</div>
+						<div class="month">
+							<div class="selectpic"><img src="../image/icon_calleft.png"></div>
+							<div class="num">3月</div>
+							<div class="selectpic"><img src="../image/icon_calright.png"></div>
+							<div class="selectpic"><img src="../image/icon_calsel.png"></div>
+						</div>
+						<div class="plan">
+							<div class="num">标注日期</div>
+							<div class="selectpic"><img src="../image/icon_calsel.png"></div>
+						</div>
+					</div>
+					<a href="" class="today">
+						<input class="today" type="submit" value="返回今天">
+					</a>
+
+					<div class="calendar_content">
+						<table class="days">
+							<tr>
+								<th>一</th>
+								<th>二</th>
+								<th>三</th>
+								<th>四</th>
+								<th>五</th>
+								<th>六</th>
+								<th>日</th>
+							</tr>
+							<tr>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber"></span>
+											<span class="almanac"></span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber"></span>
+											<span class="almanac"></span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber"></span>
+											<span class="almanac"></span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber"></span>
+											<span class="almanac"></span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="festival">
+											<span class="daynumber">1</span>
+											<span class="almanac">愚人节</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber">2</span>
+											<span class="almanac">廿五</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber">3</span>
+											<span class="almanac">廿六</span>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="day">
+										<a href="" class="aday">
+											<span class="daynumber">4</span>
+											<span class="almanac">廿七</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="festival">
+											<span class="daynumber">5</span>
+											<span class="almanac">清明</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">6</span>
+											<span class="almanac">廿九</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">7</span>
+											<span class="almanac">三月</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">8</span>
+											<span class="almanac">初二</span>
+										</a>
+									</div>
+								</td>
+								<td class="special">
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber">9</span>
+											<span class="almanac">初三</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber">10</span>
+											<span class="almanac">初四</span>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">11</span>
+											<span class="almanac">初五</span>
+										</a>
+									</div>
+								</td>
+								<td class="special">
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">12</span>
+											<span class="almanac">初六</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">13</span>
+											<span class="almanac">初七</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">14</span>
+											<span class="almanac">初八</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">15</span>
+											<span class="almanac">初九</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber">16</span>
+											<span class="almanac">初十</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber">17</span>
+											<span class="almanac">十一</span>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">18</span>
+											<span class="almanac">十二</span>
+										</a>
+									</div>
+								</td>
+								<td class="special">
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">19</span>
+											<span class="almanac">十三</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">20</span>
+											<span class="almanac">十四</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">21</span>
+											<span class="almanac">十五</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">22</span>
+											<span class="almanac">十六</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber">23</span>
+											<span class="almanac">十七</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber">24</span>
+											<span class="almanac">十八</span>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">25</span>
+											<span class="almanac">十九</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">26</span>
+											<span class="almanac">廿十</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">27</span>
+											<span class="almanac">廿一</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">28</span>
+											<span class="almanac">廿二</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="">
+											<span class="daynumber">29</span>
+											<span class="almanac">廿三</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber">30</span>
+											<span class="almanac">廿四</span>
+										</a>
+									</div>
+								</td>
+								<td>
+									<div class="day">
+										<a href="" class="weekend">
+											<span class="daynumber"></span>
+											<span class="almanac"></span>
+										</a>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				</div>
+				<div class="rank">
+					<div class="head"><p>汽车行业品牌榜</p></div>
+					<table>
+						<tr>
+							<td>排名</td>
+							<td>品牌</td>
+							<td>搜索指数</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>大众</td>
+							<td>
+								<div class="rank_num">48912001</div>
+								<div class="progressbar no1">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>丰田</td>
+							<td>
+								<div class="rank_num">29307333</div>
+								<div class="progressbar no2">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>奥迪</td>
+							<td>
+								<div class="rank_num">23139070</div>
+								<div class="progressbar no3">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>本田</td>
+							<td>
+								<div class="rank_num">22885564</div>
+								<div class="progressbar no4">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>福特</td>
+							<td>
+								<div class="rank_num">22324792</div>
+								<div class="progressbar no5">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>宝马</td>
+							<td>
+								<div class="rank_num">21444077</div>
+								<div class="progressbar no6">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>现代</td>
+							<td>
+								<div class="rank_num">20114969</div>
+								<div class="progressbar no7">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>起亚</td>
+							<td>
+								<div class="rank_num">19251680</div>
+								<div class="progressbar no8">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>奔驰</td>
+							<td>
+								<div class="rank_num">19172837</div>
+								<div class="progressbar no9">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>别克</td>
+							<td>
+								<div class="rank_num">18544027</div>
+								<div class="progressbar no10">
+									<span></span>
+								</div>
+							</td>
+						</tr>
+
+					</table>
+				</div>
+			</section>
+
+		</div>
+	</div>
+</body>
+</html>
